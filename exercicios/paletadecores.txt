@@ -1,0 +1,2 @@
+adobecolor - serve pra voce ter uma ideia de criação de site usando o contraste de cores
+paletton - mesma coisa e ja mostra o site com as cores que voce escolher é um EXEMPLO.

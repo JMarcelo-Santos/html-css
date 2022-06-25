@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+    diferença entre id e class ...
+    id é unico
+    class pode conter mais, porem é mais versatil de usar.
+*/
+
+body {
+    background-color: rgb(205, 255, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    /*seletor personalisado usando id*/
+    text-align: center;
+    background-color: rgb(15, 255, 70);
+    color: white;
+}
+
+h2 {
+    color: rgb(12, g77, 88);
+}
+
+/*Seletor usando class*/
+.basico {
+    color: maroon;
+}
+
+.intermediario {
+    color: rgb(196, 2, 2);
+}
+
+.avancado {
+    color: rgb(52, 7, 7);
+}
+
+.destaque {
+    background-color: rgba(165, 165, 56, 0.817);
+}
