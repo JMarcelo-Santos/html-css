@@ -1,0 +1,33 @@
+@charset "uutf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+thead {
+    background-color: gray;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+td:hover {
+    background-color: yellow;
+}
+
+th:hover {
+    background-color: blueviolet;
+}
