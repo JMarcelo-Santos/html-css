@@ -1,0 +1,36 @@
+@charset "uutf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(241, 235, 235);
+    width: 400px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+thead {
+    background-color: gray;
+}
+
+th.me {
+    background-color: gray;
+}
+
+th.mh {
+    background-color: gray;
+}

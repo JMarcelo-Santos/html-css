@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela usando Colgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        /*Destaque para linha********************/
+        tr.destaque {
+            background-color: rebeccapurple;
+        }
+
+        /******************************************/
+
+        /*Com o COLGROUP fica mais facil depois de definir ele no html como abaixo e personalizar ele aqui*/
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <!--criando Colgroup fica mais facil de personalir a coluna  -->
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Daiane</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Jose Marcelo</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="destaque">
+            <!--classe para destaque de linha -->
+            <td>Marcelo</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Jean</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Giovanna</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auxiliar de Produção</td>
+        </tr>
+    </table>
+</body>
+
+</html>
