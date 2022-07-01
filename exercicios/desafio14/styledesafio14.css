@@ -6,9 +6,15 @@ body {
 }
 
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
     background-color: rgb(241, 235, 235);
-    width: 400px;
+    width: 700px;
+    height: 250px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
 }
 
 caption {
@@ -29,8 +35,16 @@ thead {
 
 th.me {
     background-color: gray;
+    color: white;
+    text-align: left;
 }
 
 th.mh {
     background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+div#container {
+    overflow: auto;
 }
