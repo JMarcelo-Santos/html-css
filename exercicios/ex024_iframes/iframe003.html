@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe teste navegação</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="pagina-extra/pag01.html" target="img">Primeira página</a> </li>
+        <li><a href="pagina-extra/pag02.html" target="img">Segunda página</a></li>
+        <li><a href="pagina-extra/pag003.html" target="img">Terceira página</a></li>
+
+    </ul>
+
+    <h2>Teste de navegação dos Iframes...</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, quos rerum! Placeat, animi. Asperiores,
+        ipsam odit. Corporis, in, debitis architecto, obcaecati fugit modi vero quia quibusdam blanditiis illo totam
+        vel.</p>
+    <!--colocando o id opcional, mas o name frame eu posso chamar ele dentro como nas listas acima Target= "frame" , o (srcdoc) -> permite que o iframe sempre carregue uma img ou conteudo do seu gosto-->
+
+    <!--<iframe id="tela" name="frame" srcdoc="<h1> Escolha uma dsa opções acima</h1><img src='imagem/ft.png'>"></iframe>
+    -->
+
+    <iframe class="img" name="img" src="imagem/ft.png"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi optio reprehenderit dolorum accusantium
+        consequuntur unde esse totam expedita, eaque accusamus id nihil, deserunt voluptates quas temporibus
+        repudiandae. Maxime, exercitationem ullam?</p>
+</body>
+
+</html>
