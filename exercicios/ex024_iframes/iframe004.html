@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        iframe {
+            width: 30vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore fugiat error atque laudantium sequi.
+        Eligendi fuga perferendis minus eaque aliquid, velit tempora illo? Voluptate dolorum dolore molestiae non amet.
+    </p>
+
+    <iframe src="pagina-extra/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts"
+        referrerpolicy="no-referrer">
+        <!--A propriedade Sandbox usa-se pra dar mais proteção ao seu site, e o referrerolicy ajuda ainda mais seu site estar seguro...-->
+        <!--o Sandbox liga todas as seguranças no maximo, porem podemos fazer algumas coisas pra que possamos por exemplo um formulario pegar os dados se os dados estao no seu diretorio -->
+        Seu navegador não é compátivel com isso...
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus consectetur neque nihil exercitationem ipsam
+        temporibus aspernatur laborum eum dicta autem soluta eos, eius dolorem quae commodi, iste nulla, voluptates
+        sint! </p>
+</body>
+
+</html>
